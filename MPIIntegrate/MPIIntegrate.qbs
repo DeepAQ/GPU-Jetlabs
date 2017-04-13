@@ -9,7 +9,7 @@ CppApplication {
         qbs.install: true
     }
 
-    cpp.includePaths: ['C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include']
-    cpp.libraryPaths: ['C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64']
-    cpp.staticLibraries: "msmpi"
+    cpp.includePaths: ['C:\\Program Files\\MPICH2\\include']
+    cpp.libraryPaths: ['C:\\Program Files\\MPICH2\\lib']
+    cpp.staticLibraries: "mpi"
 }
