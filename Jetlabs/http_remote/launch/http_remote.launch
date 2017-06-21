@@ -1,0 +1,4 @@
+<launch>
+  <include file="$(find jet_bringup)/launch/jet_real.launch"/>
+  <node name="http_remote" pkg="http_remote" type="http_remote" output="screen"/>
+</launch>
